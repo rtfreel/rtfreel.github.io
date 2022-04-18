@@ -85,6 +85,15 @@ body {
     text-align: center;
     padding-top: 2vh;
 }
+#size-label:hover {
+    background-color: #256025;
+}
+#size-label:hover span {
+    display: none;
+}
+#size-label:hover::after{
+    content: 'Restart';
+}
 .player-name {
     width: 95%;
     background-color: #252a25;

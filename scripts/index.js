@@ -8,7 +8,7 @@ $(document).ready(function(){
     setSymbols();
 
     // create game
-    game = new Game("#game-field", "#size-label");
+    game = new Game("#game-field", "#size-label > span");
     game.generate(MIN_SIZE);
 
     // create players
